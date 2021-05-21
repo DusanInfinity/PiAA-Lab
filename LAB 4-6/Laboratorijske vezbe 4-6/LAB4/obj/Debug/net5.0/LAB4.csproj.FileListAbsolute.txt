@@ -1,0 +1,16 @@
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\LAB 4-6\Laboratorijske vezbe 4-6\LAB4\bin\Debug\net5.0\LAB4.exe
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\LAB 4-6\Laboratorijske vezbe 4-6\LAB4\bin\Debug\net5.0\LAB4.deps.json
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\LAB 4-6\Laboratorijske vezbe 4-6\LAB4\bin\Debug\net5.0\LAB4.runtimeconfig.json
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\LAB 4-6\Laboratorijske vezbe 4-6\LAB4\bin\Debug\net5.0\LAB4.runtimeconfig.dev.json
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\LAB 4-6\Laboratorijske vezbe 4-6\LAB4\bin\Debug\net5.0\LAB4.dll
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\LAB 4-6\Laboratorijske vezbe 4-6\LAB4\bin\Debug\net5.0\ref\LAB4.dll
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\LAB 4-6\Laboratorijske vezbe 4-6\LAB4\bin\Debug\net5.0\LAB4.pdb
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\LAB 4-6\Laboratorijske vezbe 4-6\LAB4\obj\Debug\net5.0\LAB4.csprojAssemblyReference.cache
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\LAB 4-6\Laboratorijske vezbe 4-6\LAB4\obj\Debug\net5.0\LAB4.GeneratedMSBuildEditorConfig.editorconfig
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\LAB 4-6\Laboratorijske vezbe 4-6\LAB4\obj\Debug\net5.0\LAB4.AssemblyInfoInputs.cache
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\LAB 4-6\Laboratorijske vezbe 4-6\LAB4\obj\Debug\net5.0\LAB4.AssemblyInfo.cs
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\LAB 4-6\Laboratorijske vezbe 4-6\LAB4\obj\Debug\net5.0\LAB4.csproj.CoreCompileInputs.cache
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\LAB 4-6\Laboratorijske vezbe 4-6\LAB4\obj\Debug\net5.0\LAB4.dll
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\LAB 4-6\Laboratorijske vezbe 4-6\LAB4\obj\Debug\net5.0\ref\LAB4.dll
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\LAB 4-6\Laboratorijske vezbe 4-6\LAB4\obj\Debug\net5.0\LAB4.pdb
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\LAB 4-6\Laboratorijske vezbe 4-6\LAB4\obj\Debug\net5.0\LAB4.genruntimeconfig.cache

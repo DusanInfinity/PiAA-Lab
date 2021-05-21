@@ -1,0 +1,32 @@
+C:\Users\Infinity\Desktop\PiAA\PiAA\bin\Debug\net5.0\LAB1.exe
+C:\Users\Infinity\Desktop\PiAA\PiAA\bin\Debug\net5.0\LAB1.deps.json
+C:\Users\Infinity\Desktop\PiAA\PiAA\bin\Debug\net5.0\LAB1.runtimeconfig.json
+C:\Users\Infinity\Desktop\PiAA\PiAA\bin\Debug\net5.0\LAB1.runtimeconfig.dev.json
+C:\Users\Infinity\Desktop\PiAA\PiAA\bin\Debug\net5.0\LAB1.dll
+C:\Users\Infinity\Desktop\PiAA\PiAA\bin\Debug\net5.0\ref\LAB1.dll
+C:\Users\Infinity\Desktop\PiAA\PiAA\bin\Debug\net5.0\LAB1.pdb
+C:\Users\Infinity\Desktop\PiAA\PiAA\obj\Debug\net5.0\LAB1.csprojAssemblyReference.cache
+C:\Users\Infinity\Desktop\PiAA\PiAA\obj\Debug\net5.0\LAB1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Infinity\Desktop\PiAA\PiAA\obj\Debug\net5.0\LAB1.AssemblyInfoInputs.cache
+C:\Users\Infinity\Desktop\PiAA\PiAA\obj\Debug\net5.0\LAB1.AssemblyInfo.cs
+C:\Users\Infinity\Desktop\PiAA\PiAA\obj\Debug\net5.0\LAB1.csproj.CoreCompileInputs.cache
+C:\Users\Infinity\Desktop\PiAA\PiAA\obj\Debug\net5.0\LAB1.dll
+C:\Users\Infinity\Desktop\PiAA\PiAA\obj\Debug\net5.0\ref\LAB1.dll
+C:\Users\Infinity\Desktop\PiAA\PiAA\obj\Debug\net5.0\LAB1.pdb
+C:\Users\Infinity\Desktop\PiAA\PiAA\obj\Debug\net5.0\LAB1.genruntimeconfig.cache
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\PiAA\bin\Debug\net5.0\LAB1.exe
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\PiAA\bin\Debug\net5.0\LAB1.deps.json
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\PiAA\bin\Debug\net5.0\LAB1.runtimeconfig.json
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\PiAA\bin\Debug\net5.0\LAB1.runtimeconfig.dev.json
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\PiAA\bin\Debug\net5.0\LAB1.dll
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\PiAA\bin\Debug\net5.0\ref\LAB1.dll
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\PiAA\bin\Debug\net5.0\LAB1.pdb
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\PiAA\obj\Debug\net5.0\LAB1.csprojAssemblyReference.cache
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\PiAA\obj\Debug\net5.0\LAB1.GeneratedMSBuildEditorConfig.editorconfig
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\PiAA\obj\Debug\net5.0\LAB1.AssemblyInfoInputs.cache
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\PiAA\obj\Debug\net5.0\LAB1.AssemblyInfo.cs
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\PiAA\obj\Debug\net5.0\LAB1.csproj.CoreCompileInputs.cache
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\PiAA\obj\Debug\net5.0\LAB1.dll
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\PiAA\obj\Debug\net5.0\ref\LAB1.dll
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\PiAA\obj\Debug\net5.0\LAB1.pdb
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\PiAA\obj\Debug\net5.0\LAB1.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\LAB3\bin\Debug\net5.0\LAB3.exe
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\LAB3\bin\Debug\net5.0\LAB3.deps.json
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\LAB3\bin\Debug\net5.0\LAB3.runtimeconfig.json
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\LAB3\bin\Debug\net5.0\LAB3.runtimeconfig.dev.json
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\LAB3\bin\Debug\net5.0\LAB3.dll
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\LAB3\bin\Debug\net5.0\ref\LAB3.dll
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\LAB3\bin\Debug\net5.0\LAB3.pdb
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\LAB3\obj\Debug\net5.0\LAB3.csprojAssemblyReference.cache
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\LAB3\obj\Debug\net5.0\LAB3.GeneratedMSBuildEditorConfig.editorconfig
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\LAB3\obj\Debug\net5.0\LAB3.AssemblyInfoInputs.cache
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\LAB3\obj\Debug\net5.0\LAB3.AssemblyInfo.cs
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\LAB3\obj\Debug\net5.0\LAB3.csproj.CoreCompileInputs.cache
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\LAB3\obj\Debug\net5.0\LAB3.dll
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\LAB3\obj\Debug\net5.0\ref\LAB3.dll
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\LAB3\obj\Debug\net5.0\LAB3.pdb
+E:\Moji podaci\FAX podaci\III godina\VI semestar\PiAA\LAB3\obj\Debug\net5.0\LAB3.genruntimeconfig.cache
