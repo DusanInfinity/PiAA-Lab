@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "LAB4/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/LAB4.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LAB4.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "LAB4/1.0.0": {
+      "type": "project",
+      "path": "../LAB4/LAB4.csproj",
+      "msbuildProject": "../LAB4/LAB4.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "LAB4 >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Infinity\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\Moji podaci\\FAX podaci\\III godina\\VI semestar\\PiAA\\LAB 4-6\\Laboratorijske vezbe 4-6\\LAB4\\LAB4.csproj": {
+              "projectPath": "E:\\Moji podaci\\FAX podaci\\III godina\\VI semestar\\PiAA\\LAB 4-6\\Laboratorijske vezbe 4-6\\LAB4\\LAB4.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

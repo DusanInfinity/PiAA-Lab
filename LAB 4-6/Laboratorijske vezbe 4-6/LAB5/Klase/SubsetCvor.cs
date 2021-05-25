@@ -1,6 +1,6 @@
 ﻿namespace LAB5.Klase
 {
-    class SubsetCvor
+    public class SubsetCvor
     {
         public Cvor Roditelj { get; set; }
         public int Rank { get; set; }

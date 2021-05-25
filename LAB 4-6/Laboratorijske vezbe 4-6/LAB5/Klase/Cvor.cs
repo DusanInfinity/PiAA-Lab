@@ -1,6 +1,6 @@
 ﻿namespace LAB5.Klase
 {
-    class Cvor
+    public class Cvor
     {
         public int Oznaka { get; set; }
 

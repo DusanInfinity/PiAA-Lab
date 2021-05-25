@@ -2,7 +2,7 @@
 
 namespace LAB5.Klase
 {
-    class Subset
+    public class Subset
     {
         protected void MakeSet(List<SubsetCvor> subsets, List<Cvor> listaCvorova)
         {

@@ -4,7 +4,7 @@ using System.IO;
 
 namespace LAB5.Klase
 {
-    class Graf : Subset
+    public class Graf : Subset
     {
         protected readonly List<Cvor> ListaCvorova;
         protected List<Poteg> ListaPotega;

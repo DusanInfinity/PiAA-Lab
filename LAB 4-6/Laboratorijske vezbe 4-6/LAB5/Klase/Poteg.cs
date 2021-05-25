@@ -2,7 +2,7 @@
 
 namespace LAB5.Klase
 {
-    class Poteg : IComparable<Poteg>
+    public class Poteg : IComparable<Poteg>
     {
         public Cvor Prvi { get; set; }
         public Cvor Drugi { get; set; }
