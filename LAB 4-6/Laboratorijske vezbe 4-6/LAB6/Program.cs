@@ -30,11 +30,11 @@ namespace LAB6
 
 
             #region Bellman-Fordov Algoritam
-            Console.Write("Pokrecem Bellman-Fordov algoritam");
+            /*Console.Write("Pokrecem Bellman-Fordov algoritam");
             for (int i = 0; i < 3; i++)
             {
                 Thread.Sleep(1000);
-                Console.Write($".{(i == 2 ? "\n" : "")}");
+                Console.Write($".{(i == 2 ? "\n\n\n" : "")}");
             }
             for (int i = 0; i < 5; i++)
             {
@@ -52,15 +52,15 @@ namespace LAB6
                     stopWatch.Stop();
                     Console.WriteLine($"Izvrsenje Bellman-Fordovog algoritma za {brCvorova[i]} cvorova i {brCvorova[i] * brPotegaCoef[j]} potega je zavrsen za {stopWatch.ElapsedMilliseconds}ms [{stopWatch.ElapsedTicks}]\n\n\n");
                 }
-            }
+            } */
             #endregion
 
             #region Dijkstra Algoritam
-            /*Console.Write("Pokrecem Dijkstra algoritam");
-            for (int i = 0; i < 3; i++)
+            Console.Write("Pokrecem Dijkstra algoritam");
+            for (int i = 1, max = 8; i <= max; i++)
             {
                 Thread.Sleep(1000);
-                Console.Write($".{(i == 2 ? "\n" : "")}");
+                Console.Write($".{(i == max ? "\n\n\n" : "")}");
             }
             for (int i = 0; i < 5; i++)
             {
@@ -78,7 +78,7 @@ namespace LAB6
                     stopWatch.Stop();
                     Console.WriteLine($"Izvrsenje Dijkstra algoritma za {brCvorova[i]} cvorova i {brCvorova[i] * brPotegaCoef[j]} potega je zavrsen za {stopWatch.ElapsedMilliseconds}ms [{stopWatch.ElapsedTicks}]\n\n\n");
                 }
-            } */
+            }
             #endregion
         }
 

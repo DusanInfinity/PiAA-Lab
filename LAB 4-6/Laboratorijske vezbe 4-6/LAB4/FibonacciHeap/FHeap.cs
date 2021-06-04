@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 
 namespace LAB4.FibonacciHeap
 {
@@ -12,6 +13,23 @@ namespace LAB4.FibonacciHeap
         {
             Min = null;
             N = 0;
+        }
+
+        public static FHeap ProcitajHeap(string file)
+        {
+            FHeap heap = new FHeap();
+            using (StreamReader sr = new StreamReader(file))
+            {
+                while (!sr.EndOfStream)
+                {
+                    string brString = sr.ReadLine();
+                    if (!int.TryParse(brString, out int broj))
+                        throw new Exception($"Vrednost elementa nije broj! ({brString})");
+
+                    heap.Insert(broj);
+                }
+            }
+            return heap;
         }
 
         public FNode Insert(int key, object data = null)
@@ -148,12 +166,12 @@ namespace LAB4.FibonacciHeap
             node.Key = newKeyValue;
 
 
-            FNode parent = node.Parent;
+            FNode temp = node.Parent;
 
-            if (parent != null && node.Key < parent.Key)
+            if (temp != null && node.Key < temp.Key)
             {
-                Cut(node, parent);
-                CascadingCut(parent);
+                Cut(node, temp);
+                CascadingCut(temp);
             }
 
             if (Min == null || node.Key < Min.Key)
@@ -171,7 +189,8 @@ namespace LAB4.FibonacciHeap
                 else
                     parent.Child = null; // Da li ovde treba null ili ipak child.Child? Da li odvajamo decu od child cvora
             }
-            parent.Degree -= child.Degree + 1; // Ako ne odvajamo decu od child-a, onda bi trebao da se oduzme child.Degree + 1 jer se odvajaju svi child potomci +1 za dati child cvor
+            parent.Degree -= 1;
+            // parent.Degree -= child.Degree + 1; Ako ne odvajamo decu od child-a, onda bi trebao da se oduzme child.Degree + 1 jer se odvajaju svi child potomci +1 za dati child cvor
 
             child.RemoveFromList();
             child.AddToList(Min);
@@ -202,6 +221,33 @@ namespace LAB4.FibonacciHeap
         }
 
 
+        private FNode FindNode(FNode ignoreNode, FNode node, int findKey)
+        {
+            if (node == null || node == ignoreNode)
+                return null;
+
+            if (node.Key == findKey)
+                return node;
+
+            if (node.Key < findKey) // obzirom da je minHeap, ako je dati cvor veci od vrednosti key, svi njegovi potomci su isto veci od vrednosti jer su veci od datog cvora
+            {
+                FNode searchChild = FindNode(null, node.Child, findKey);
+                if (searchChild != null)
+                    return searchChild;
+            }
+
+            if (ignoreNode == null)
+                ignoreNode = node;
+
+            return FindNode(ignoreNode, node.Right, findKey);
+        }
+
+        public FNode FindNode(int findKey)
+        {
+            return FindNode(null, Min, findKey);
+        }
+
+
         private void PrintNodeData(FNode h)
         {
             string childOf = h.Parent != null ? $"[P:{h.Parent.Key}]" : "";
@@ -227,7 +273,6 @@ namespace LAB4.FibonacciHeap
                 h = h.Right;
             }
         }
-
 
         public void PrintHeap()
         {

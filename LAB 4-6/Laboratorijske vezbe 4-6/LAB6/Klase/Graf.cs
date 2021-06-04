@@ -62,7 +62,7 @@ namespace LAB6.Klase
             ListaCvorova[source].Distanca = 0;
         }
 
-        public void Relax(Cvor izvor, Cvor odrediste, int rastojanje)
+        public static void Relax(Cvor izvor, Cvor odrediste, int rastojanje)
         {
             try // Dodajemo prazan try/catch zbog checked-a (checked proverava da li je doslo do prekoracenja, ako jeste -> exception)
             {
@@ -106,7 +106,7 @@ namespace LAB6.Klase
                 }
             }
 
-            Print(source);
+            //Print(source);
         }
 
         public void Dijkstra(int source)

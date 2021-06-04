@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace LAB4.BinomniHeap
 {
@@ -13,6 +14,23 @@ namespace LAB4.BinomniHeap
         public BHeap(BNode head)
         {
             Head = head;
+        }
+
+        public static BHeap ProcitajHeap(string file)
+        {
+            BHeap heap = new BHeap();
+            using (StreamReader sr = new StreamReader(file))
+            {
+                while (!sr.EndOfStream)
+                {
+                    string brString = sr.ReadLine();
+                    if (!int.TryParse(brString, out int broj))
+                        throw new Exception($"Vrednost elementa nije broj! ({brString})");
+
+                    heap = heap.Insert(broj);
+                }
+            }
+            return heap;
         }
 
         public BNode Minimum()
@@ -242,9 +260,12 @@ namespace LAB4.BinomniHeap
             if (node.Key == key)
                 return node;
 
-            BNode searchChild = FindNode(node.Child, key);
-            if (searchChild != null)
-                return searchChild;
+            if (node.Key < key) // obzirom da je minHeap, ako je dati cvor veci od vrednosti key, svi njegovi potomci su isto veci od vrednosti jer su veci od njega
+            {
+                BNode searchChild = FindNode(node.Child, key);
+                if (searchChild != null)
+                    return searchChild;
+            }
 
             return FindNode(node.Sibling, key);
         }
