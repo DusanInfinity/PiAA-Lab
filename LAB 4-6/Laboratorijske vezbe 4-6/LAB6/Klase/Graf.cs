@@ -11,8 +11,6 @@ namespace LAB6.Klase
         protected List<Cvor> ListaCvorova { get; set; }
         protected List<Poteg> ListaPotega;
 
-
-
         public Graf(int br)
         {
             BrCvorova = br;

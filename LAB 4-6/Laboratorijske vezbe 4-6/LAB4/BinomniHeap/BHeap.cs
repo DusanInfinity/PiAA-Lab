@@ -103,11 +103,11 @@ namespace LAB4.BinomniHeap
                 }
             }
 
-            // Ako su preostali neka stabla iz prvog heap-a, nadovezujemo ih
+            // Ako su preostala neka stabla iz prvog heap-a, nadovezujemo ih
             while (first != null)
                 LinkNextRootNode(ref newHeapNode, ref first);
 
-            // Ako su preostali neka stabla iz drugog heap-a, nadovezujemo ih
+            // Ako su preostala neka stabla iz drugog heap-a, nadovezujemo ih
             while (second != null)
                 LinkNextRootNode(ref newHeapNode, ref second);
 
@@ -223,7 +223,7 @@ namespace LAB4.BinomniHeap
                 {
                     node = node.Sibling;
 
-                    if (last != null) // Provera da slucajno minimum nije prvi u lancu(head)
+                    if (last != null) // Provera(!= null) da slucajno minimum nije prvi u lancu(head)
                         last.Sibling = null; // Ako je min poslednji u lancu, prethodnik treba da ukazuje na null
                 }
 
